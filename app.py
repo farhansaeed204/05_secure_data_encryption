@@ -72,7 +72,7 @@ elif choice == "Register":
 
     if st.button("Register"):
         if user_name and password:
-            if user_name in stored_data
+            if user_name in stored_data:
                  st.warning("⚠️ User already exists")
         else:
             stored_data[user_name] = {
